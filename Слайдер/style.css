@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+
+
+
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+
+}
+.about {
+    background: #131313;
+    padding-bottom: 414px;
+}
+
+.about__row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__col-left {
+    margin-top: 176px;
+}
+
+.about__col-right {
+    margin-top: 107px;
+    position: relative;
+}
+
+
+.about__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.about__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.textcols {
+    display: flex;
+    gap: 20px;
+}
+
+.text__item {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.text__line {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.vector {
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.img__vektor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.point {
+    width: 9.57px;
+    height: 9.57px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.30);
+    cursor: pointer;
+}
+
+.circle {
+    margin-left: 30px;
+    gap: 18px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.vector__right {
+    display: flex;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.munu__list {
+    margin-bottom: 40px;
+}
+
+
+
+.about__list {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.about__list {
+    margin-right: 50px;
+    position: relative;
+}
+
+
+.about__list:hover .active   {
+    color: #E3B873;
+
+}
+
+.slider {
+    max-width: 500px;
+    height: 300px;
+    position: relative;
+    overflow:hidden ;
+}
+
+.slider-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+   
+}
+.blockSlider {
+    display: flex;
+    width: 100%;
+    max-width: 673px;
+    height: 486px;
+    overflow:hidden;
+    position: relative;
+    
+}
+
+.imagesArea {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.imageSlider {
+    width: 100%;
+    height: 100%;
+    overflow: absolute;
+    opacity: 0;
+}
+ .activeImage   {
+   opacity: 1;
+    background: white;
+}
+
+
+
+
+
